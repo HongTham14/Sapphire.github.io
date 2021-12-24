@@ -1,0 +1,114 @@
+/**************************Service*****************************/
+#top-content{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.title-p{
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.paragraph-color{
+    color:var(--background-color) ;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.paragraph-text{
+    color: var(--text-color);
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 60px;
+   
+}
+#top-content-col{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+/*************************************************************/
+.botom-content{
+    background-color: #efefef;
+}
+.bottom-content-title{
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.bottom-paragraph{
+    text-align: center;
+}
+.paragraph-title-big{
+    font-weight: 600;
+}
+.paragraph-title-small{
+    font-size: 16.779px;
+    color: rgb(191, 191, 191);
+}
+.bottom-paragraph-text{
+    font-size: 13px;
+    color: rgb(149, 149, 149);
+    font-weight: 400;
+    padding-bottom: 60px;
+    
+}
+/*************************Introduce***********************/
+.gioithieu:hover .introduce-box{
+    display: block;
+}
+.gioithieu .introduce-box .introduce-list .introduce-items{
+    display: block;
+}
+.introduce-box{
+    background-color: rgba(0,0,0,0.8);
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    z-index: 50;
+    bottom: calc(100% - 261px);
+    left: calc(100% - 440px);
+    display: none;
+}
+.introduce-box::after{
+    content: "";
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent  rgba(0,0,0,0.8) transparent ;
+    top: -20px;
+    left: 20px;
+}
+.introduce-list{
+    list-style: none;
+    padding-left: 0px;
+    display: inline;
+}
+
+.introduce-items{
+    padding: 12px 20px;
+}
+.introduce-items:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.introduce-link{
+    font-size: 13px;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--white-color);
+    display: inline-block;
+}
+.introduce-link:hover{
+    text-decoration: none;
+    color: var(--main-color);
+    cursor: pointer;
+   
+}
+.banner{
+    position: relative;
+}
+
+
+  
+  
+
+  
